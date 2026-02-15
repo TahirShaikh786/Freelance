@@ -8,8 +8,8 @@ const Ourexpertise = () => {
     <>
       <Container className="mb-5 mt-30  ourexpertisecontainer">
         <Row className="my-5">
-          <p>OUR EXPERTISE</p>
-          <h3 className="text-center">Modular Solutions for Every Challenge</h3>
+          <p className="sectionSmallHeading text-center">OUR EXPERTISE</p>
+          <h3 className="text-center sectionBigHeading">Modular Solutions for Every Challenge</h3>
           <p className="my-3 text-gray-600 mx-auto text-sm md:text-base text-center">
             Our modularized support model allows you to select tailored services
             based on your specific needs. From standalone bid writing to

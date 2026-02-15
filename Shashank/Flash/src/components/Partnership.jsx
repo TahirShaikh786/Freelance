@@ -8,8 +8,8 @@ const Partnership = () => {
     <>
       <Container className="mb-5 mt-30 partnershipcontainer">
         <Row className="my-5">
-          <p>STRATEGIC PARTNERSHIP</p>
-          <h3 className="text-center">Pre-Sales Consulting</h3>
+          <p className="sectionSmallHeading text-center">STRATEGIC PARTNERSHIP</p>
+          <h3 className="text-center sectionBigHeading">Pre-Sales Consulting</h3>
           <p className="text-center my-3 text-gray-600 mx-auto text-sm md:text-base" id="partnershipdescription">
             Beyond bid support, we partner with your sales teams to develop
             winning strategies, qualify opportunities, and position your

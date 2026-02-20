@@ -3,6 +3,7 @@ import "../css/components.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 
 const Footer = () => {
   return (
@@ -84,8 +85,8 @@ const Footer = () => {
               <a href="#" target="_blank" className="d-none d-md-inline w-fit tacLink">
                 Terms & Condition
               </a>
-              <p className="mb-0">
-                © 2026 FLASH Consulting. All rights reserved.
+              <p className="mb-0 copyrightPara">
+                <FontAwesomeIcon icon={faCopyright} /> 2026 <a href="https://tahir-shaikh.odoo.com/" target="_blank">The Shaikh Solution</a>. All rights reserved.
               </p>
             </div>
           </Row>

@@ -6,6 +6,7 @@ import Partnership from "./components/Partnership";
 import Advantage from "./components/Advantage";
 import Companyscarousel from "./components/Companyscarousel";
 import Footer from "./components/Footer";
+import Contactform from "./components/Contactform";
 
 const Home = () => {
   return (
@@ -21,6 +22,8 @@ const Home = () => {
       <Partnership />
 
       <Advantage />
+
+      <Contactform />
 
       <Footer />
     </>

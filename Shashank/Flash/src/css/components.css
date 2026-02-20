@@ -458,6 +458,90 @@
 }
 /* Advantage End */
 
+/* Contact Start */
+.contact-fixed-image{
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(../assets/image/bg-image.png);
+}
+
+.contact-overlay{
+  color: #fff;
+  background-color: #0000004d;
+}
+
+.contactLeftContainer p:last-child{
+  max-width: 80%;
+}
+
+.contactLeftinnerdiv{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  background-color: #0000007a;
+  box-shadow: 1px 1px 5px #fff;
+  transform: translateY(0);
+  transition: all 0.3s linear;
+}
+
+.contactLeftinnerdiv:hover{
+  /* box-shadow: 10px 10px 20px #fff; */
+  transform: translateY(-4px);
+}
+
+.contactLeftinnerdiv h6{
+  color: var(--Accent);
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+  /* width: fit-content; */
+}
+
+.contactLeftinnerdiv button{
+  background-color: transparent;
+  border: 2px solid var(--Primary);
+  transition: all 0.5s ease;
+}
+
+.contactLeftinnerdiv button:hover{
+  border: none;
+  background-color: var(--Accent);
+}
+
+.contactRightContainer p:first-child{
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  width: fit-content;
+  color: var(--Accent);
+  font-weight: bolder;
+  background-color: #1a1a1a;
+}
+
+.contactInputContainer{
+  color: var(--Text-Dark);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.contactsubmitBtn button{
+  border: none;
+  background-color: var(--Primary);
+  transform: translateY(0);
+  transition: all 0.5s ease;
+}
+
+.contactsubmitBtn button:hover{
+  border: none;
+  transform: translateY(-4px);
+  background-color: var(--Accent);
+}
+/* Contact End */
+
 /* Footer Start */
 .footer-container{
   margin: 0;
@@ -492,5 +576,15 @@
   color: var(--Primary);
   font-weight: 600;
   text-decoration: none;
+}
+
+.copyrightPara{
+  font-weight: 900;
+  color: var(--Primary);
+}
+
+.copyrightPara a{
+  color: var(--Primary);
+  /* text-decoration: none; */
 }
 /* Footer End */
